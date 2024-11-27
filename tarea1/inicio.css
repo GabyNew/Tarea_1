@@ -1,0 +1,64 @@
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    gap: 8px;
+    background: linear-gradient(304deg, rgba(218,96,124,1) 15%, rgba(254,252,248,1) 94%);
+  }
+  .row {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+  }
+  
+  .seccion {
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    padding: auto;
+  }
+  .encabezado {
+    padding: 10px;
+    height: auto;
+    width: 100%;
+  }
+  .principal {
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .tarjetas {
+    padding: 10px;
+    flex: 1; 
+    height: auto;
+  }
+  .listas {
+    padding: 10px;
+  } 
+  .imagenes {
+    flex: 1;
+    border-radius: 10px;
+    max-height: 400px; 
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  .nav {
+    background: rgb(78, 23, 105);
+  }
+  .nav-link {
+    font-weight: bold;
+  }
+  .nav-link.active {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  .pagination .page-item.active .page-link {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    color: white;
+  }
+  
